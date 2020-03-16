@@ -1,0 +1,64 @@
+# Defaults for SeqHash database
+
+-instance => seqhash
+-dbuser   => tilfordc
+
+# Postgres connection information
+-pgport => 5433
+# -pghost => salus.pri.bms.com
+-pghost => elephant.pri.bms.com
+
+-adminmail => tilfordc@bms.com
+
+-errorfile => /tmp/PgSeqHash.err
+
+# Mappings to associate a file prefix with a URL
+
+-pathToUrl => /stf/ = /
+
+# URLs when generating HTML output
+# toolurl is also used when absolute referencing is needed
+-cxurl   => http://xpress.pri.bms.com/JAVASCRIPT/canvas/js/canvasXpress.min.js
+
+
+# Stylesheets to include in output
+-stylesheet => <<EOF;
+$$BETA$$/biohtml/css/PgSeqHashWeb/simpleSearch.css
+/biohtml/css/AjaxTask.css
+
+/biohtml/extjs/5/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css
+
+EOF
+
+-confstyles => /stf/biohtml/css/PgSeqHashWeb/simpleSearch.css
+
+# Javascript to include in output
+-javascript => <<EOF;
+
+/biohtml/extjs/5/build/ext-all-debug.js
+/biohtml/extjs/5/build/packages/ext-theme-classic/build/ext-theme-classic.js
+
+$$BETA$$/biohtml/javascript/PgSeqHashWeb/simpleOligoSearch.js
+/biohtml/javascript/ExtJsFilterFix.js
+# /biohtml/javascript/AjaxTask.js
+/biohtml/javascript/PgTaskManager.js
+EOF
+
+# HTML working directory
+
+-htmltmp => /stf/biohtml/temp/PgSeqHash
+
+
+-junk => <<EOF;
+
+/foo/biohtml/extjs/ext421/resources/ext-theme-classic/ext-theme-classic-all.css
+/foo/biohtml/extjs/ext421/ext-all-debug-w-comments.js
+
+/biohtml/extjs/ext421/resources/ext-theme-classic/ext-theme-classic-all.css
+
+/biohtml/extjs/ext421/ext-all-debug-w-comments.js
+/biohtml/extjs/ext421/resources/css/ext-all.css
+
+/biohtml/javascript/miniAjax.js
+
+EOF

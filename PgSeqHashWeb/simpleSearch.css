@@ -1,0 +1,118 @@
+                       #srchmsg { color: #00f; padding: 3px;; background-color: #ff9 }
+                         .alert { text-align: center; color: red ! important; background-color: yellow ! important }
+                        .altsym { color: #666; font-size: 0.7em }
+                            .am { color: blue }
+                          .beta { width: 600px; text-align: center; color: blue; background-color: yellow; font-weight: bold; font-size: 1.5em }
+                           .box { padding: 3px; margin: 3px; border: navy solid 2px }
+                          .butt { padding: 0px 2px; cursor: pointer; border-right: #999 solid 1px; text-decoration: none; font-weight: bold; white-space: nowrap; border-bottom: #999 solid 1px; background-color: #cfc; margin: 4px }
+                    .butt:hover { border-top: #999 solid 1px; border-right: none; border-bottom: none; background-color: #6f6; border-left: #999 solid 1px }
+                          .date { color: purple; font-style: italic }
+                          .desc { color: #630; font-style: italic }
+                      .diligent { color: #360; font-style: italic }
+                      .fakeLink { color: blue; text-decoration: underline }
+                   .fancy .Conf { background: url(/biohtml/SOS/page_bookmark.gif) left bottom no-repeat }
+                  .fancy .Excel { background: url(/biohtml/SOS/table.gif) left bottom no-repeat }
+                  .fancy .Fasta { background: url(/biohtml/SOS/flag_green.gif) left bottom no-repeat }
+                 .fancy .Folder { background: url(/biohtml/SOS/folder.gif) left bottom no-repeat }
+                 .fancy .Params { background: url(/biohtml/SOS/box.gif) left bottom no-repeat }
+                    .fancy .TSV { background: url(/biohtml/SOS/page_text.gif) left bottom no-repeat }
+                   .fancy .Text { background: url(/biohtml/SOS/file_font.gif) left bottom no-repeat }
+      .fancy .x-grid-cell-inner { vertical-align: bottom; white-space: nowrap }
+                       .fancy a { color: blue; text-decoration: underline; padding-left: 18px; padding-top: 2px }
+                          .lazy { color: #600; font-weight: bold }
+                            .mm { background-color: yellow }
+                          .note { color: brown }
+                       .progbar { padding: 2px; border-radius: 2px; background-color: #ff9 }
+                   .progbar>div { border-radius: 2px; background-color: #3f9; height: 12px }
+                  .progbar>span { position: absolute }
+                        .setpop { cursor: pointer; padding: 0px 2px; text-decoration: none; border-right: #999 solid 1px; font-weight: bold; color: blue; white-space: nowrap; border-bottom: #999 solid 1px; background-color: #cfc; margin: 4px }
+                  .setpop:hover { border-top: #999 solid 1px; border-right: none; border-bottom: none; background-color: #6f6; border-left: #999 solid 1px }
+                      .statDone { color: green; font-weight: bold }
+                    .statFailed { color: red; background-color: yellow; font-weight: bold }
+                   .statPending { color: purple; font-weight: bold }
+                   .statUnknown { color: yellow; background-color: gray; font-weight: bold }
+                   .statWorking { color: blue; font-weight: bold }
+                           .sym { color: #06c; cursor: help }
+                       .symless { color: #99c; cursor: help }
+               .tab, .tab table { border-collapse: collapse }
+                        .tab td { background-color: #fff }
+                        .tab th { background-color: #ffc }
+               .tab th, .tab td { vertical-align: top; padding: 2px; empty-cells: show; border: #fc9 solid 1px }
+                           .tax { color: #909; font-style: italic }
+                           .tor { color: black ! important; padding-left: 2px; font-weight: bold ! important; padding-right: 2px }
+                          .warn { color: red ! important; background-color: yellow ! important }
+             .x-grid-cell-inner { -moz-user-select: text ! important }
+                        .ybbutt { color: yellow ! important; background-color: blue ! important }
+                  .ybbutt:hover { color: red ! important; background-color: yellow ! important }
+                          .AmHi { text-align: center; color: yellow; background-color: red ! important }
+                         .AmLow { text-align: center; color: blue ! important }
+                         .AmMed { text-align: center; color: blue; background-color: yellow ! important }
+                         .BgiCE { background-color: green }
+                         .BgiCR { background-color: green }
+                         .BgiIR { background-color: green }
+                           .CDS { text-align: center; background-color: #0f0 ! important }
+                       .CanFam3 { background-color: orange }
+                     .CodeError { text-align: left; color: yellow ! important; background-color: red ! important; font-weight: bold; font-style: italic }
+                   .CrypticExon { text-align: left; color: #ff0; background-color: #300 ! important }
+                          .Exon { text-align: left; background-color: lime ! important }
+                       .ExonCDS { text-align: left; color: blue ! important; background-color: lime ! important; font-weight: bold }
+                      .ExonExon { text-align: left; background-color: green ! important }
+                      .ExonUTR3 { text-align: left; color: brown ! important; background-color: lime ! important }
+                      .ExonUTR5 { text-align: left; color: brown ! important; background-color: lime ! important }
+                          .File { color: brown; font-family: monospace; font-size: 7 }
+                     .FirstExon { text-align: left; background-color: #cf0 ! important }
+                     .Footprint { font-family: monospace; font-size: 7 }
+                      .FullSpan { text-align: left; color: white ! important; background-color: #000 ! important }
+                        .GRCh37 { background-color: lime }
+                        .GRCm38 { background-color: brown }
+                          .Hit0 { text-align: center; background-color: #cfc ! important }
+                          .Hit1 { text-align: center; background-color: #0f0 ! important }
+                         .Hit10 { text-align: center; background-color: #ff0 ! important }
+                        .Hit100 { text-align: center; background-color: #f39 ! important }
+                          .Hit5 { text-align: center; background-color: #cf0 ! important }
+                         .Hit50 { text-align: center; background-color: #f90 ! important }
+                        .Hit500 { text-align: center; background-color: #f00 ! important }
+                         .HitID { font-family: monospace; font-size: 7 }
+                       .HitLots { text-align: center; color: white ! important; background-color: black ! important }
+                        .Intron { text-align: left; color: #aaa ! important }
+                      .LastExon { text-align: left; background-color: #cf0 ! important }
+                           .MM0 { text-align: center; background-color: lime ! important }
+                           .MM1 { text-align: center; background-color: yellow ! important }
+                           .MM2 { text-align: center; background-color: orange ! important }
+                           .MM3 { text-align: center; background-color: red ! important }
+                           .MM4 { text-align: center; color: white; background-color: black }
+                         .MMUnk { text-align: center; color: white; background-color: black }
+                       .MacFas5 { background-color: green }
+                          .Mute { text-align: center; color: silver }
+                    .NoGeneInfo { text-align: left; color: white ! important; background-color: #ccc ! important; font-weight: bold }
+                       .OligoID { font-weight: bold }
+                           .RNA { text-align: left; background-color: #993 ! important }
+                           .RSG { background-color: lime }
+                        .Rnor_5 { background-color: brown }
+                           .Seq { font-family: monospace; font-size: 9 }
+                       .Species { color: brown; font-style: italic }
+                .SpliceAcceptor { text-align: left; background-color: #f6f ! important }
+             .SpliceAcceptorCDS { text-align: left; color: blue ! important; background-color: #f6f ! important; font-weight: bold }
+            .SpliceAcceptorUTR3 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+            .SpliceAcceptorUTR5 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+                   .SpliceDonor { text-align: left; background-color: #f6f ! important }
+                .SpliceDonorCDS { text-align: left; color: blue ! important; background-color: #f6f ! important; font-weight: bold }
+               .SpliceDonorUTR3 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+               .SpliceDonorUTR5 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+                .SpliceJunction { text-align: left; background-color: #f6f ! important }
+             .SpliceJunctionCDS { text-align: left; color: blue ! important; background-color: #f6f ! important; font-weight: bold }
+            .SpliceJunctionUTR3 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+            .SpliceJunctionUTR5 { text-align: left; color: brown ! important; background-color: #f6f ! important }
+                         .Str-1 { text-align: center; color: #00f; background-color: #ff0 }
+                          .Str0 { text-align: center; color: white; background-color: black }
+                          .Str1 { text-align: center; color: #ff0; background-color: #00f }
+                        .StrUnk { text-align: center; color: yellow; background-color: red }
+                        .Symbol { text-align: center }
+                          .UTR3 { text-align: center; background-color: #808000 ! important }
+                          .UTR5 { text-align: center; background-color: #008080 ! important }
+                          .bold { font-weight: bold }
+                           .cen { text-align: center }
+                       .cenbold { text-align: center; font-weight: bold }
+                       .cengray { text-align: center; color: silver }
+                        .exhead { color: yellow; font-weight: bold; background-color: blue }
+                       .italics { font-style: italic }
