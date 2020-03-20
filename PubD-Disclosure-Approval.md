@@ -8,6 +8,8 @@
 * __Decision Date:__ 2020-Mar-13
 * __Public Disclosure Date:__ 2020-Mar-13
 
+Screenshots were approved in disclosure `00053735`
+
 _Bristol-Myers Squibb PubD disclosure information. Because the git
 commit log and older file versions were not submitted for publication
 approval, the public repository has been purged of history from points
