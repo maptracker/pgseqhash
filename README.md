@@ -6,6 +6,12 @@ oligos. Designed to aid prediction of potential off-target activity in
 Anti-Sense Oligos (ASOs), where biological activity had been noted
 even with two mismatches in an oligo aligning to an intronic region.
 
+The need for this tool developed with the recognition (empirically
+demonstrated by bench experiments) that transcripts could be knocked
+down by _imperfect_ alignment to _intronic_ sequences. In addition, it
+was important to prioritize ASO candidates that showed reasonably
+homology to model organisms, in order to facilitate _in vivo_ testing.
+
 The search database is a Postgres DB centered around
 polymorphism-permuted 12-mer oligos. The sequence source is the set of
 all "pre-mRNA" sequences for several genomes. One sequence is used for
