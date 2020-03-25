@@ -16,6 +16,10 @@ testing. Several open source and commercial tools were considered, but
 all failed to exhaustively identify partial-mismatch locations with
 small oligos.
 
+An exhaustive description of both database construction and the sarch
+algorithm [is available][methodology], but in broad strokes proceeds
+as:
+
 The search database is a Postgres DB centered around
 polymorphism-permuted 12-mer oligos. The sequence source is the set of
 all "pre-mRNA" sequences for several genomes. One sequence is used for
@@ -55,9 +59,12 @@ published oligos from the literature):
 
 ![Hit report][Report]
 
+* [Back to code][code]
 * [BMS Public Disclosure approval](PubD-Disclosure-Approval.md)
 
 [DBalg]: img/SOS-DatabaseAlgorithm.png
 [SearchAlg]: img/SOS-SearchAlgorithm.png
 [Report]: img/SOS-Overview.png
 [ASO]: https://en.wikipedia.org/wiki/Antisense_therapy
+[code]: https://github.com/maptracker/pgseqhash/
+[methodology]: methodology.md
