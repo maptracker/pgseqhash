@@ -1,5 +1,8 @@
 # PgSeqHash - Operating Principles
 
+_This is a highly-detailed description of the tool's operation. Please
+see the [README](README.md) for a high-level summary._
+
 _PgSeqHash_, also known as _Simple Oligo Search_ or _SOS_, is designed
 to detect and report imperfect oligo matches with the following
 features and conditions:
