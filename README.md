@@ -3,14 +3,18 @@
 An oligo-to-genome alignment algorithm capable of exhaustively finding
 imperfect matches in a large genomic database even with very short
 oligos. Designed to aid prediction of potential off-target activity in
-Anti-Sense Oligos (ASOs), where biological activity had been noted
-even with two mismatches in an oligo aligning to an intronic region.
+Anti-Sense Oligos ([ASOs][ASO]), where biological activity had been
+noted even with two mismatches in an oligo aligning to an intronic
+region.
 
 The need for this tool developed with the recognition (empirically
 demonstrated by bench experiments) that transcripts could be knocked
 down by _imperfect_ alignment to _intronic_ sequences. In addition, it
 was important to prioritize ASO candidates that showed reasonably
-homology to model organisms, in order to facilitate _in vivo_ testing.
+homology to model organisms, in order to facilitate _in vivo_
+testing. Several open source and commercial tools were considered, but
+all failed to exhaustively identify partial-mismatch locations with
+small oligos.
 
 The search database is a Postgres DB centered around
 polymorphism-permuted 12-mer oligos. The sequence source is the set of
@@ -56,3 +60,4 @@ published oligos from the literature):
 [DBalg]: img/SOS-DatabaseAlgorithm.png
 [SearchAlg]: img/SOS-SearchAlgorithm.png
 [Report]: img/SOS-Overview.png
+[ASO]: https://en.wikipedia.org/wiki/Antisense_therapy
